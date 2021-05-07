@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">CovidCalendar</string>
+    <string name="covid_calendar">Covid Calendar</string>
+    <string name="splashscreen">SplashScreen</string>
 </resources>

@@ -11,30 +11,31 @@
         android:id="@+id/date"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:layout_marginTop="10dp"
+        android:gravity="center" />
 
     <TextView
         android:id="@+id/confirmCases"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:gravity="center" />
 
     <TextView
         android:id="@+id/totalDeaths"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:gravity="center" />
 
     <ImageView
         android:id="@+id/homeImg"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="40dp"
         app:srcCompat="@drawable/home" />
 
     <Button
         android:id="@+id/btnSelectDate"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:layout_gravity="center"
+        android:text="Seleccionar Fecha" />
 </LinearLayout>
